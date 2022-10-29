@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<title>VAMOS Tennis Club</title>
+<meta charset="UTF-8">
+<meta name="description" content="For all Tennis lovers">
+<meta name="keywords" description="'tennis''having fun''GrandSlam'">
+<meta name="author" content="Vamos Tennis Club">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="refresh" content="600">
+<link rel="icon" href="/index/images/favicon-32x32-icon.png">
+<link rel="stylesheet" href="/index/CSS/index.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+<div class="front">
+
+    <video autoplay loop muted plays-inline class="tennisVid">
+        <source src="/index/images/tennisVid.mp4" type="video/mp4">
+    </video>
+
+    <nav>
+        <a href="/index.html"><img src="/index/images/tclogo6.png" class="logo"></a>
+
+        <div class="menu-btn"></div>
+
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="/NewsAndEvents/newsandevents.html">News & Events</a>
+                <a href="/Coaching/coaching.html">Coaching</a>
+                <a href="/RacketReviews/racketreviews.html">Racket Reviews</a>
+                <a href="/AboutUs/aboutus.html">About Us</a>
+            </div>
+        </div>
+    </nav>
+    <div class="content">
+        <h1>Why We Play</h1>
+        <a href="/AboutUs/aboutus.html">Origin Story</a>
+    </div>
+
+    <div class="media-icons">
+        <a href="#"><img src="/index/images/fblogo1.png" alt="facebook logo" height="20" class="FBI"></a>
+        <a href="#"><img src="/index/images/instalogo1.png" alt="insta logo" height="20" class="insta"></a>
+        <a href="#"><img src="/index/images/twitterlogo1.png" alt="tweeter logo" height="20" class="tweet"></a>
+        <a href="#"><img src="/index/images/tiktoklogo1.png" alt="tiktok logo" height="20" class="tiktok"></a>
+    </div>
+
+    <script type="text/javascript">
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        });
+    </script>
+
+</div>
+
+<div class="index-content">
+    <h2><span>VAMOS Tennis Club</span> is one of the largest tennis Club globally</h2>
+    <h3>With a huge and diverse community that comes together enthusiastically and talk tennis, <span>we stay true to the sport.</span></h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+</body>
+
+<footer>
+<div class="footer-newsletter">
+    <form action = "" method = "post" id = "footersignupform" novalidate = "novalidate">
+    <h4 class = "newsletter-header">Sign up our Newsletter and receive regular Tennis news and updates !</h4>
+    <p>
+        <input id = "footer-email" placeholder="Enter your email . . . " name = "email" type = "email">
+    </p>
+    <p>
+        <button type = "submit" onclick="alert('Thank you for signing up our Newsletter !')" class = "newsletter-button">Signup</button>
+    </p>
+    </form>
+</div>
+<div class="middle-footer">
+    <div class="media-icons-footer">
+        <a href="#"><img src="/index/images/fblogo1.png" alt="facebook logo" height="30" class="FBI"></a>
+        <a href="#"><img src="/index/images/instalogo1.png" alt="insta logo" height="30" class="insta"></a>
+        <a href="#"><img src="/index/images/twitterlogo1.png" alt="tweeter logo" height="30" class="tweet"></a>
+        <a href="#"><img src="/index/images/tiktoklogo1.png" alt="tiktok logo" height="30" class="tiktok"></a>
+    </div>
+
+    <div class="sponsers-footer">
+        <p>our partners and sponsors</p>
+        <img src="/index/images/ATPsponsors (1).png" alt="tennis org logos" height="160" class="atp-sponsors">
+    </div>
+
+</div>
+<div class = "footer-end">
+    VAMOS Tennis Foundation
+    <br>
+    © 2022 VAMOS Tennis Club. All Rights Reserved. See Copyright and Trademarks, VAMOS LLC T&C, Privacy Policy and Cookies
+</div>
+</footer>
+</html>
